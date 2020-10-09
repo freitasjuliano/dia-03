@@ -1,0 +1,197 @@
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.landing {
+    background-color: #222222;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/LRM_EXPORT_20171019_134441.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100vw;
+ 
+}
+
+.dribbble_link {
+    position: absolute;
+    font-size: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    height: 400;
+    padding-left: 20px;
+    top: 90vh;
+    margin-bottom: 30px;
+    color: #eee;
+}
+
+.landing::after{
+    content: '';
+    display: block;
+    padding-top: 100%;
+
+}
+
+
+.circle {
+    font-family: 'Marcellus', serif;
+    font-size: 5rem;
+    color: white;
+    line-height: 90vh;
+}
+.content-1 {
+    height: 25vh;
+}
+
+
+.fotos-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.square {
+    background-color: #eee;
+
+}
+
+.one {
+position: relative;
+max-width: 600px;
+}
+
+.contentbox1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/quarentena_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.one:after {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.contentbox2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.contentbox3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/quarentena_2.jpg);
+}
+
+.contentbox4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/quarentena_3.jpg);
+}
+
+.contentbox5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/domingo_1.jpg);
+}
+
+.contentbox6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/domingo_2.jpg);
+}
+
+.contentbox7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/domingo_3.jpg);
+}
+
+.contentbox8 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/domingo_4.jpg);
+}
+
+.contact {
+    height: 25vh;
+    font-size: 3rem;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 25vh;
+}
+
+@media (max-width: 1080px) {
+    .fotos-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    
+    }
+
+}
+
+@media (max-width: 920px) {
+    
+    .landing {
+        background-size: cover;
+    }
+   
+    .contact {
+        font-size: 30px;
+
+    }
+
+
+}
+
+@media (max-width: 920px) { 
+
+    .fotos-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+    }
+
+}
